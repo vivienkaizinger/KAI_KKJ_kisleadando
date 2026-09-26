@@ -1,4 +1,4 @@
-# `KAI_KKJ_kisleadando` package
+# `kai_kkj_kisleadando` package
 ROS 2 C++ package.  [![Static Badge](https://img.shields.io/badge/ROS_2-Humble-34aec5)](https://docs.ros.org/en/humble/)
 ## Packages and build
 
@@ -9,7 +9,7 @@ It is assumed that the workspace is `~/ros2_ws/`.
 cd ~/ros2_ws/src
 ```
 ``` r
-git clone https://github.com/vivienkaizinger/KAI_KKJ_kisleadando
+git clone https://github.com/vivienkaizinger/kai_kkj_kisleadando
 ```
 
 ### Build ROS 2 packages
@@ -17,7 +17,7 @@ git clone https://github.com/vivienkaizinger/KAI_KKJ_kisleadando
 cd ~/ros2_ws
 ```
 ``` r
-colcon build --packages-select KAI_KKJ_kisleadando --symlink-install
+colcon build --packages-select kai_kkj_kisleadando --symlink-install
 ```
 
 <details>
@@ -29,6 +29,6 @@ source ~/ros2_ws/install/setup.bash
 </details>
 
 ``` r
-ros2 launch KAI_KKJ_kisleadando launch_example1.launch.py
+ros2 launch kai_kkj_kisleadando launch_example1.launch.py
 ```
 

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(KAI_KKJ_kisleadando)
+project(kai_kkj_kisleadando)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)

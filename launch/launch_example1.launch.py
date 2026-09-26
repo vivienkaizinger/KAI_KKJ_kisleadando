@@ -25,7 +25,7 @@ def generate_launch_description():
             ]
         ),
         # Node(
-        #     package='KAI_KKJ_kisleadando',
+        #     package='kai_kkj_kisleadando',
         #     executable='simple_sub_node',
         #     output='screen',
         # ),
